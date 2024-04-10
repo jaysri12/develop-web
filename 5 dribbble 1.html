@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <style>
+        .left1 h3{
+            flex: start;
+            color: rgb(226, 20, 55);
+            font-family: cursive;
+            
+        }
+       .center h2{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        .center p{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+         #bt1{
+            transform:translateX() ;
+                left:660px;
+                position: absolute;
+                bottom:100px ;
+            background-color: rgb(226, 20, 55);
+            color: azure;
+            width: 200px;
+            height: 30px;
+            border-radius:7px;
+            border-color: azure;
+            
+        }
+        #last1 h5{
+            color: rgb(120, 118, 118);
+            transform:translateX() ;
+                left:699px;
+                position: absolute;
+                bottom: 50px;
+        }
+        .pic{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .mid1{
+            transform:translateX() ;
+                left:130px;
+                position: absolute;
+                bottom:200px ;
+               display:flex;
+            
+        }
+        .mid2{
+            transform:translateX() ;
+                left:680px;
+                position: absolute;
+                bottom:200px ;
+               display:flex;
+            
+        }
+        .mid3{
+            transform:translateX() ;
+                left:1000px;
+                position: absolute;
+                bottom:200px ;
+               display:flex;
+               
+            
+        }
+        .check1{transform:translateX() ;
+                left:250px;
+                position: absolute;
+                bottom:260px ;
+               display:flex;
+
+        }
+        .check2{ transform:translateX() ;
+                left:780px;
+                position: absolute;
+                bottom:260px ;
+               display:flex;
+
+        }
+        .check3{transform:translateX() ;
+                left:1100px;
+                position: absolute;
+                bottom:260px ;
+               display:flex;
+
+        }
+        .center1 h4{
+            transform:translateX() ;
+                left:640px;
+                position: absolute;
+                bottom:130px ;
+        }
+               
+    </style>
+</head>
+<body>
+    <div class="left1">
+        <h3>dribbble <a href="//https:www.dribble.com"> </a></h3>
+    </div>
+    <div class="center">
+        <h2>What brings you to Dribbble?</h2>
+        <p>Select the options that best describe you. Don't worry,you can explore other options later.</p></div>
+        <div class="pic">
+            <img src="pic1.jpg" alt="" height="200px" width="300px">
+            <img src="pic2.jpg" alt="" height="200px" width="300px">
+            <img src="pic3.jpg" alt="" height="200px" width="300px">
+            <div class="mid1">
+                <h4>I'm a designer looking to share my work</h4>
+                </div>           
+            <div class="mid2"><h4>I'm looking to hire a designer</h4>
+            </div>
+            <div class="mid3">
+                <h4>I'm looking for design inspiration</h4>
+                </div>
+                <div class="check1">
+                    <input type="checkbox">
+                </div>
+                <div class="check2">
+                    <input type="checkbox">
+                </div>
+                <div class="check3">
+                    <input type="checkbox">
+                </div>
+
+        </div>
+        <div class="center1">
+            <h4>Anything else?You can select multiple</h4>
+        </div>
+        
+        <button id="bt1">Finish</button>
+        <div id="last1">
+        <h5>or Press RETURN</h5>
+    </div>
+    
+</body>
+</html>

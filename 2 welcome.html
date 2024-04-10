@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Your Dribbble Profile</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fa;
+  }
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  header {
+    margin-bottom: 20px;
+  }
+  h1 {
+    margin-top: 0;
+    color: #333;
+  }
+  h2 {
+    color: #666;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  .avatar-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin: 0 auto 10px;
+    background-color: #f9f9f9;
+  }
+  button.choose-image {
+    background-color:blueviolet;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  button.choose-image:hover {
+    background-color: #0056b3;
+  }
+  p.or-choose-defaults {
+    color: #666;
+    margin-top: 0;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  button.next {
+    background-color:rgb(216, 127, 127) ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button.next:hover {
+    background-color:rgb(216, 127, 127) ;
+  }
+  p.or-press-return {
+    color: #666;
+    margin-bottom: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Welcome! Let's create your profile</h1>
+    <h2>Let others get to know you better! You can do these later</h2>
+  </header>
+
+  <section>
+    <h3>Add an avatar</h3>
+    <div class="avatar-placeholder"></div>
+    <button class="choose-image">Choose image</button>
+    <p class="or-choose-defaults">Or choose one of our defaults</p>
+  </section>
+
+  <section>
+    <h3>Add your location</h3>
+    <input type="text" placeholder="Enter your location" />
+  </section>
+
+  <div class="navigation">
+    <button class="next">Next</button>
+    <p class="or-press-return">or Press RETURN</p>
+  </div>
+</div>
+
+</body>
+</html>
